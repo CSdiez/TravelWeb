@@ -103,6 +103,11 @@ section{
     align-items: center;
     overflow: hidden;
 }
+.row .col p{
+    
+    font-size: 2.3vmin;
+    margin-bottom: 15px;
+}
 .row .col img{
     width: 80%;
 }
@@ -180,18 +185,17 @@ p{
     font-size: 7vmin;
     color: rgb(41, 41, 41);
 }
-.content-col p{
-    font-size: 2.5vmin;
-}
 .content-col .line{
     margin-left: -1px;
 }
 .content-col p{
     padding: 0;
     margin: 30px auto;
+    font-size: 2.5vmin;
 }
 .content-col .ctn{
     margin-left: -100px;
+    margin-top: 20px;
 }
 .footer{
     width: 100%;
@@ -257,6 +261,7 @@ p{
         font-size: 5vmin;
         margin-bottom: 10px;
     }
+    
     .col p{
         margin-bottom: 15px;
     }
@@ -272,6 +277,10 @@ p{
     .col img {
         max-width: 90%;
     }
+    .col p{
+        font-size: 4vmin;
+        text-align: center;
+    }
     .row .col{
         margin: 20px auto;
     }
@@ -279,12 +288,22 @@ p{
         width: 100%;
         text-align: center;    
     }
+    .explore-content p {
+        font-size: 5vmin;
+    }
     .tours .col{
         width: 90%;
+    }
+    .tours .row .col {
+        width: 100%;
+        text-align: center;
     }
     .image-gallery{
         justify-content: center;
         align-content: center;
+    }
+    .tours .image-gallery {
+        margin-left: 0px;
     }
     .image-gallery img{
         width: 90%;
